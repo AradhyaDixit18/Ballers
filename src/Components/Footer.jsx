@@ -1,10 +1,19 @@
 /* eslint-disable no-unused-vars */
+
 import React from "react";
 
-function Navbar() {
+function Footer() {
 	return (
-		<div className="fixed z-[999] w-full px-20 py-8 font-['Neue Montreal'] flex justify-between items-center">
-			<div className="logo">
+		<div className="w-full h-screen bg-zinc-900 p-20 flex gap-5 font-['Test_Founders_Grotesk_X']">
+			<div className="w-1/2 flex flex-col justify-between h-full ">
+				<div className="heading">
+					<h1 className="text-[8vw] font-semibold uppercase leading-none -mb-10">
+						Eye-
+					</h1>
+					<h1 className="text-[8vw] font-semibold uppercase leading-none -mb-10">
+						Opening
+					</h1>
+				</div>
 				<svg
 					width="72"
 					height="30"
@@ -34,22 +43,33 @@ function Navbar() {
 					></path>
 				</svg>
 			</div>
-			<div className="Links flex gap-10">
-				{["Services", "Our Work", "About Us", "Insights", "Contact"].map(
-					(item, index) => (
-						<a
-							key={index}
-							className={`text-lg capitalize font-light ${
-								index === 4 && "ml-32"
-							}`}
-						>
-							{item}
-						</a>
-					)
-				)}
+			<div className="w-1/2">
+				<h1 className="text-[8vw] font-semibold uppercase leading-none -mb-10">
+					Presentations
+				</h1>
+				<div className="details  mt-10 font-['Neue Montreal']">
+					<a
+						className="block text-xl font-light"
+						href="#"
+					>
+						Facebook
+					</a>
+					<a
+						className="block text-xl font-light"
+						href="#"
+					>
+						Instagram
+					</a>
+					<a
+						className="block text-xl font-light"
+						href="#"
+					>
+						Twitter
+					</a>
+				</div>
 			</div>
 		</div>
 	);
 }
 
-export default Navbar;
+export default Footer;

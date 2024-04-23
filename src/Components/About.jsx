@@ -1,7 +1,9 @@
-import React from 'react'
+/* eslint-disable no-unused-vars */
+
+import React from "react";
 
 function About() {
-  return (
+	return (
 		<div className="w-full p-20 text-black bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl">
 			<h1 className="font-['Neue Montreal'] text-[4.5vw] leading-[4.5vw] tracking-tight">
 				Ochi is a strategic partner for fast-growing tech businesses that need
@@ -22,4 +24,4 @@ function About() {
 	);
 }
 
-export default About
+export default About;
