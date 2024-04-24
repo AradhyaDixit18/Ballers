@@ -9,7 +9,7 @@ export default function LandingPage() {
 			data-scroll
 			data-scroll-section
 			data-scroll-speed="-.3"
-			className="w-full bg-zinc-900 h-screen pt-1"
+			className="w-full bg-[#f1f1f1] h-screen pt-1"
 		>
 			<div className="textstructure mt-40 px-20">
 				{["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
@@ -20,9 +20,14 @@ export default function LandingPage() {
 									<motion.div
 										initial={{ width: 0 }}
 										animate={{ width: "9vw" }}
-										transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-										className="mr-[1vw] rounded-md w-[9vw] h-[6vw] relative top-[1vw] bg-green-500"
-									></motion.div>
+										transition={{ ease: [0.76, 0, 0.24, 1], duration: 1.4 }}
+										className="mr-[1vw] w-[9vw] h-[6vw] relative top-[1vw]"
+									>
+										<img
+											className="w-full h-full rounded-md"
+											src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg"
+										/>
+									</motion.div>
 								)}
 								<h1 className="flex items-center uppercase h-full text-[9vw] leading-[7vw] font-['Test_Founders_Grotesk_X'] font-bold">
 									{item}
@@ -32,24 +37,24 @@ export default function LandingPage() {
 					);
 				})}
 			</div>
-			<div className="border-t-[1px] border-zinc-800 mt-36 flex justify-between items-center py-5 px-20">
+			<div className="border-t-[1px] border-[#bababa] mt-36 flex justify-between items-center py-4 px-20">
 				{[
 					"For public and private companies",
 					"From the first pitch to IPO",
 				].map((item, index) => (
-					<p className="text-md font-light tracking-tight leading-none">
+					<p className="text-md font-normal tracking-tight leading-none">
 						{item}
 					</p>
 				))}
-				<div className="start flex items-center gap-5">
-					<div className="px-5 py-2 uppercase border-[1px] border-zinc-500 rounded-full font-light text-md">
+				<div className="start flex items-center gap-1 ">
+					<button className="px-4 py-1  uppercase border-[1px] border-[#3b3b3b] rounded-full font-normal text-md ">
 						Start the Project
-					</div>
-					<div className="w-10 h-10 flex items-center justify-center rounded-full border-[2px] border-zinc-500">
+					</button>
+					<button className="w-8 h-8 flex items-center justify-center rounded-full border-[2px] border-zinc-500">
 						<span className="rotate-[45deg]">
 							<FaArrowUpLong />
 						</span>
-					</div>
+					</button>
 				</div>
 			</div>
 		</div>
