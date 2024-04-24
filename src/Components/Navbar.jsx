@@ -71,7 +71,7 @@ function Navbar() {
 					(item, index) => (
 						<a
 							key={index}
-							className={`text-lg capitalize font-light ${
+							className={`text-lg capitalize font-normal ${
 								index === 4 && "ml-32"
 							}`}
 						>
