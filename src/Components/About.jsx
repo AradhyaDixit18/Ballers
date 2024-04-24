@@ -1,14 +1,21 @@
 /* eslint-disable no-unused-vars */
 
+import { motion } from "framer-motion";
 import React from "react";
 
 function About() {
+
 	return (
-		<div className="w-full p-20 text-black bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl">
-			<h1 className="font-['Neue Montreal'] text-[4.5vw] leading-[4.5vw] tracking-tight">
+		<div
+			data-scroll
+			data-scroll-section
+			data-scroll-speed=".05"
+			className="w-full p-20 text-black bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl"
+		>
+			<h1 className="font-['Neue Montreal'] text-[3.7vw] leading-[3.5vw] tracking-tight">
 				Ochi is a strategic partner for fast-growing tech businesses that need
-				to raise funds, sell products, explain complex ideas, and hire great
-				people.
+				to raise funds, sell products,
+				<br />explain complex ideas, and hire great people.
 			</h1>
 			<div className="w-full flex gap-5 pt-10 border-t-[1px] border-zinc-900 mt-20">
 				<div className="w-1/2">
