@@ -14,12 +14,13 @@ function App() {
 	const locomotiveScroll = new LocomotiveScroll();
 
 	return (
-		<div className="w-full min-h-screen bg-zinc-900 text-white">
+		<div className="w-full min-h-screen text-black bg-white">
 			<Navbar />
 			<LandingPage />
 			<Marquee />
 			<About />
 			<Eyes />
+			<Feature />
 			<Feature />
 			<Cards />
 			<Footer />
