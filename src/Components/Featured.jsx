@@ -13,7 +13,7 @@ function Feature() {
 		cards[index].start({ y: "100%" });
 	};
 	return (
-		<div className="w-full mt-[.5vw] bg-[#f1f1f1]">
+		<div className="w-full py-20 bg-[#f1f1f1]">
 			<div className="px-20">
 				<div className="card w-full flex gap-10 mt-10">
 					<motion.div
