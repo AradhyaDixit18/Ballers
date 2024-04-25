@@ -1,18 +1,21 @@
+/* eslint-disable react/jsx-key */
 /* eslint-disable no-unused-vars */
 
 import React from "react";
-
+import LandingPage from "./LandingPage";
+import Cards from "./Cards";
 function Footer() {
 	return (
-		<div className="w-full h-screen bg-zinc-900 p-20 flex gap-5 font-['Test_Founders_Grotesk_X']">
-			<div className="w-1/2 flex flex-col justify-between h-full ">
+		<div className="w-full h-screen bg-[#f1f1f1] p-20 flex gap-5  rounded-xl">
+			<div className="w-1/2 flex flex-col justify-between h-full font-['Test_Founders_Grotesk_X']">
 				<div className="heading">
-					<h1 className="text-[8vw] font-semibold uppercase leading-none -mb-10">
-						Eye-
-					</h1>
-					<h1 className="text-[8vw] font-semibold uppercase leading-none -mb-10">
-						Opening
-					</h1>
+					{["Eye-", "Opening"].map((item, index) => {
+						return (
+							<h1 className="text-[9vw] font-semibold uppercase leading-none -mb-10">
+								{item}
+							</h1>
+						);
+					})}
 				</div>
 				<svg
 					width="72"
@@ -44,28 +47,73 @@ function Footer() {
 				</svg>
 			</div>
 			<div className="w-1/2">
-				<h1 className="text-[8vw] font-semibold uppercase leading-none -mb-10">
+				<h1 className="text-[9vw] font-semibold uppercase leading-none -mb-10 font-['Test_Founders_Grotesk_X']">
 					Presentations
 				</h1>
-				<div className="details  mt-10 font-['Neue Montreal']">
-					<a
-						className="block text-xl font-light"
-						href="#"
-					>
-						Facebook
-					</a>
-					<a
-						className="block text-xl font-light"
-						href="#"
-					>
-						Instagram
-					</a>
-					<a
-						className="block text-xl font-light"
-						href="#"
-					>
-						Twitter
-					</a>
+				<div className="flex pt-[5vw] justify-between font-['Neue Montreal'] font-normal">
+					<div className="w-1/2">
+						<p className="mb-[1.5vw]">S:</p>
+						{["Instagram", "Behance", "Facebook", "Linkedin"].map(
+							(item, index) => {
+								return (
+									<a
+										className="leading-[1.5vw] flex underline underline-offset-4"
+										href="#"
+									>
+										{item}
+									</a>
+								);
+							}
+						)}
+						<div className="w-1/2">
+							<p className="mt-[3vw] mb-[1.5vw]">L:</p>
+							{[
+								"202-1965 W 4th Ave",
+								"Vancouver, Canada",
+								"30 Chukarina St",
+								"Lviv, Ukraine",
+							].map((item, index) => (
+								<address className="leading-[1.5vw] flex underline underline-offset-4">
+									{item}
+								</address>
+							))}
+						</div>
+						<div className="w-1/2">
+							<p className="mt-[3vw] mb-[1vw]">E:</p>
+							<a
+								href="mailto:hello@ochi.design"
+								className="underline underline-offset-4"
+							>
+								hello@ochi.design
+							</a>
+						</div>
+						<p className="text-[#cacaca] mt-[2vw] hover:text-black tracking-tight text-lg">
+							© ochi design 2024.Legal Terms
+						</p>
+					</div>
+
+					<div className="pt-[15%]">
+						<p className="mb-[1.5vw]">M:</p>
+						{[
+							"Home",
+							"Services",
+							"Our Work",
+							"About us",
+							"Insights",
+							"Contact us",
+						].map((item, index) => (
+							<a
+								key={item}
+								href="#"
+								className="leading-[1.5vw] flex underline underline-offset-4"
+							>
+								{item}
+							</a>
+						))}
+						<p className="text-[#cacaca] mt-[2vw] hover:text-black tracking-tight text-lg pt-[10vw]">
+							Clone Website by Chirag
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
