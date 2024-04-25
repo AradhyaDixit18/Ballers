@@ -94,6 +94,12 @@ function Feature() {
 						</div>
 					</motion.div>
 				</div>
+				<div className="flex mt-[5vw] items-center justify-center">
+					<button className="flex gap-10 uppercase items-center justify-center px-5 py-4 mt-[2vw] rounded-full text-white bg-zinc-900">
+						View all case studies
+						<div className="w-2 h-2 bg-zinc-200 rounded-full"></div>
+					</button>
+				</div>
 			</div>
 		</div>
 	);
