@@ -10,6 +10,7 @@ import Cards from "./Components/Cards";
 import Footer from "./Components/Footer";
 import LocomotiveScroll from "locomotive-scroll";
 import Featured from "./Components/Featured"
+import Ready from "./Components/Ready";
 function App() {
 	const locomotiveScroll = new LocomotiveScroll();
 
@@ -23,6 +24,7 @@ function App() {
 			<Feature />
 			<Featured/>
 			<Cards />
+			<Ready />
 			<Footer />
 		</div>
 	);
