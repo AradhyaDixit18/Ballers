@@ -9,19 +9,19 @@ import Feature from "./Components/Feature";
 import Cards from "./Components/Cards";
 import Footer from "./Components/Footer";
 import LocomotiveScroll from "locomotive-scroll";
-
+import Featured from "./Components/Featured"
 function App() {
 	const locomotiveScroll = new LocomotiveScroll();
 
 	return (
-		<div className="w-full min-h-screen text-black bg-white">
+		<div className="w-full min-h-screen text-black bg-[#f6f6f6]">
 			<Navbar />
 			<LandingPage />
 			<Marquee />
 			<About />
 			<Eyes />
 			<Feature />
-			<Feature />
+			<Featured/>
 			<Cards />
 			<Footer />
 		</div>
