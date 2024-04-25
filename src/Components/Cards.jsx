@@ -4,7 +4,7 @@ import React from "react";
 
 function Cards() {
 	return (
-		<div className="w-full h-screen bg-[#f1f1f1] flex items-center px-[2.5vw] gap-5">
+		<div className="w-full h-[80vh] bg-[#f1f1f1] flex items-center px-[2.5vw] gap-5">
 			<div className="cardcontainer h-[50vh] w-1/2">
 				<div className="card relative rounded-xl w-full h-full bg-[#004D43] flex items-center justify-center">
 					<img
