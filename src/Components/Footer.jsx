@@ -6,12 +6,12 @@ import LandingPage from "./LandingPage";
 import Cards from "./Cards";
 function Footer() {
 	return (
-		<div className="w-full h-screen bg-[#f1f1f1] p-20 flex gap-5  rounded-xl">
-			<div className="w-1/2 flex flex-col justify-between h-full font-['Test_Founders_Grotesk_X']">
+		<div className="w-full h-screen bg-[#f1f1f1] p-20 flex gap-5  rounded-xl font-['Bebas Neue']">
+			<div className="w-1/2 flex flex-col justify-between h-full ">
 				<div className="heading">
 					{["Eye-", "Opening"].map((item, index) => {
 						return (
-							<h1 className="text-[9vw] font-semibold uppercase leading-none -mb-10">
+							<h1 className="text-[6vw] font-bold uppercase leading-[9vw] -mb-10 tracking-tighter">
 								{item}
 							</h1>
 						);
@@ -47,10 +47,10 @@ function Footer() {
 				</svg>
 			</div>
 			<div className="w-1/2">
-				<h1 className="text-[9vw] font-semibold uppercase leading-none -mb-10 font-['Test_Founders_Grotesk_X']">
+				<h1 className="text-[6vw] font-bold uppercase leading-none -mb-10 tracking-tighter">
 					Presentations
 				</h1>
-				<div className="flex pt-[5vw] justify-between font-['Neue Montreal'] font-normal">
+				<div className="flex pt-[5vw] justify-between font-normal">
 					<div className="w-1/2">
 						<p className="mb-[1.5vw]">S:</p>
 						{["Instagram", "Behance", "Facebook", "Linkedin"].map(
