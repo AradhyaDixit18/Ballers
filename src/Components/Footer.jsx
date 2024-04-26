@@ -111,7 +111,9 @@ function Footer() {
 							</a>
 						))}
 						<p className="text-[#cacaca] mt-[2vw] hover:text-black tracking-tight text-lg pt-[10vw]">
-							Clone Website by Chirag
+							<a href="https://github.com/Chirag6525/ochi-clone">
+								Clone Website by Chirag
+							</a>
 						</p>
 					</div>
 				</div>
