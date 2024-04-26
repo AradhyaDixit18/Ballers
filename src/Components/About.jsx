@@ -13,13 +13,13 @@ function About() {
 			data-scroll-speed=".05"
 			className="w-full p-20 text-black bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl"
 		>
-			<h1 className="font-['Neue Montreal'] text-[3.7vw] leading-[3.5vw] tracking-tight">
+			<h1 className="font-['Bebas Neue'] text-[3.7vw] leading-[3.5vw] tracking-tight">
 				Ochi is a strategic partner for fast-growing tech businesses that need
 				to raise funds, sell products,
 				<br />
 				explain complex ideas, and hire great people.
 			</h1>
-			<div className="w-full border-t-[1px] border-[#80943f] mt-10 mb-15 text-base font-normal flex justify-between items-center font-['Neue Montreal'] leading-[1.5vw]">
+			<div className="w-full border-t-[1px] border-[#80943f] mt-10 mb-15 text-base font-normal flex justify-between items-center font-['Bebas Neue'] leading-[1.5vw]">
 				<div className="flex  w-1/2  mt-[-11vw]">
 					<p>What you can expect:</p>
 				</div>

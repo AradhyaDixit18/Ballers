@@ -34,7 +34,7 @@ function Navbar() {
 		<div
 			className={`transform transition-transform duration-700 ${
 				show ? "translate-y-0" : "-translate-y-full"
-			} fixed backdrop-blur-sm z-[999] w-full px-20 py-5 font-['Neue Montreal'] flex justify-between items-center`}
+			} fixed backdrop-blur-sm z-[999] w-full px-20 py-5 font-['Bebas Neue'] flex justify-between items-center`}
 		>
 			<div className="logo">
 				<svg

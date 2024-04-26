@@ -29,12 +29,12 @@ function Eyes() {
 				<div className="">
 					{["Ready", "to start", "the project?"].map((item, index) => {
 						return (
-							<div className="flex items-center leading-[10vw] justify-center font-['Test_Founders_Grotesk_X'] text-[200px] font-bold tracking-tight uppercase">
+							<div className="flex items-center leading-[12vw] justify-center font-['Anton'] text-[200px] tracking-tight uppercase">
 								{item}
 							</div>
 						);
 					})}
-					<div className="relative mt-[1vw]">
+					<div className="relative mt-[1vw] font-['Bebas Neue']">
 						<div className="flex items-center justify-center">
 							<button className="flex gap-10 uppercase items-center justify-center px-5 py-4 mt-[2vw] rounded-full text-white bg-zinc-900">
 								Start the project

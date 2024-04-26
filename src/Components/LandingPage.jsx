@@ -29,7 +29,7 @@ export default function LandingPage() {
 										/>
 									</motion.div>
 								)}
-								<h1 className="flex items-center uppercase h-full text-[9vw] leading-[7vw] font-['Test_Founders_Grotesk_X'] font-bold">
+								<h1 className="flex items-center uppercase h-full text-[8vw] leading-[7.5vw] font-['Anton'] tracking-tight">
 									{item}
 								</h1>
 							</div>
@@ -37,7 +37,7 @@ export default function LandingPage() {
 					);
 				})}
 			</div>
-			<div className="border-t-[1px] border-[#bababa] mt-36 flex justify-between items-center py-4 px-20">
+			<div className="border-t-[1px] border-[#bababa] mt-36 flex justify-between items-center py-4 px-20 font-['Bebas Neue']">
 				{[
 					"For public and private companies",
 					"From the first pitch to IPO",

@@ -24,7 +24,7 @@ function Feature() {
 						<p className="pb-1 list-disc ">
 							<li className="font-normal">TRAWA</li>
 						</p>
-						<h1 className="absolute flex text-[#CDEA68] overflow-hidden right-0 top-1/2 translate-x-1/2 -translate-y-1/2 z-[9] text-[120px] leading-none tracking-tighter font-['Test_Founders_Grotesk_X']">
+						<h1 className="absolute flex text-[#CDEA68] overflow-hidden right-0 top-1/2 translate-x-1/2 -translate-y-1/2 z-[9] text-[120px] leading-none tracking-tighter font-['Bebas Neue'] font-extrabold">
 							{"TRAWA".split("").map((item, index) => (
 								<motion.span
 									initial={{ y: "100%" }}
@@ -63,8 +63,8 @@ function Feature() {
 						<p className="pb-1 font-normal list-disc">
 							<li>PREMIUM BLEND</li>
 						</p>
-						<h1 className="absolute flex overflow-hidden text-[#CDEA68] left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[9] text-[120px] leading-none tracking-tight font-['Test_Founders_Grotesk_X']">
-							{"PREMIUM BLEND".split("").map((item, index) => (
+						<h1 className="absolute flex overflow-hidden text-[#CDEA68] left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[9] text-[120px] leading-none tracking-tighter font-extrabold font-['Bebas Neue']">
+							{"PREMIUMBLEND".split("").map((item, index) => (
 								// eslint-disable-next-line react/jsx-key
 								<motion.span
 									initial={{ y: "100%" }}
