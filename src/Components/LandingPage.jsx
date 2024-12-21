@@ -2,6 +2,7 @@
 /* eslint-disable react/jsx-key */
 import { motion } from "framer-motion";
 import React from "react";
+import logo from '../assets/logo.png'
 import { FaArrowUpLong } from "react-icons/fa6";
 export default function LandingPage() {
 	return (
@@ -12,7 +13,7 @@ export default function LandingPage() {
 			className="w-full bg-[#f1f1f1] h-screen pt-1"
 		>
 			<div className="textstructure mt-40 px-20">
-				{["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
+				{["playground", "for the world's", "top 0.01% peoples"].map((item, index) => {
 					return (
 						<div className="masker">
 							<div className="w-fit flex">
@@ -25,7 +26,7 @@ export default function LandingPage() {
 									>
 										<img
 											className="w-full h-full rounded-md"
-											src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg"
+											src={logo}
 										/>
 									</motion.div>
 								)}
@@ -39,8 +40,8 @@ export default function LandingPage() {
 			</div>
 			<div className="border-t-[1px] border-[#bababa] mt-36 flex justify-between items-center py-4 px-20 font-['Bebas Neue']">
 				{[
-					"For public and private companies",
-					"From the first pitch to IPO",
+					"Rare opportunities. ",
+					"Rare access. Rarer people.",
 				].map((item, index) => (
 					<p className="text-md font-normal tracking-tight leading-none">
 						{item}
@@ -48,7 +49,7 @@ export default function LandingPage() {
 				))}
 				<div className="start flex items-center gap-1 ">
 					<button className="px-4 py-1  uppercase border-[1px] border-[#3b3b3b] rounded-full font-normal text-md ">
-						Start the Project
+					Join the exclusive club
 					</button>
 					<button className="w-8 h-8 flex items-center justify-center rounded-full border-[2px] border-zinc-500">
 						<span className="rotate-[45deg]">

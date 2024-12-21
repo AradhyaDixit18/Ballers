@@ -11,6 +11,9 @@ import Footer from "./Components/Footer";
 import LocomotiveScroll from "locomotive-scroll";
 import Featured from "./Components/Featured"
 import Ready from "./Components/Ready";
+import InvestIn from "./Components/InvestIn";
+import WhyBallers from "./Components/WhyBallers";
+import IsBallersForYou from "./Components/IsBallersForYou";
 function App() {
 	const locomotiveScroll = new LocomotiveScroll();
 
@@ -19,12 +22,11 @@ function App() {
 			<Navbar />
 			<LandingPage />
 			<Marquee />
+			<InvestIn/>
 			<About />
 			<Eyes />
-			<Feature />
-			<Featured/>
-			<Cards />
-			<Ready />
+			<WhyBallers/>
+			<IsBallersForYou/>
 			<Footer />
 		</div>
 	);

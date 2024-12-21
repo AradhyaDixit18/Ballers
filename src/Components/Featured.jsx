@@ -42,7 +42,7 @@ function Feature() {
 						<div className=" card w-full h-full rounded-xl overflow-hidden">
 							<img
 								className="w-full h-full bg-cover"
-								src="https://ochi.design/wp-content/uploads/2023/08/Frame-3875-663x551.jpg"
+								src="https://Ballers.design/wp-content/uploads/2023/08/Frame-3875-663x551.jpg"
 							/>
 						</div>
 						<div className="py-[1vw] flex gap-2 capitalize">
@@ -82,7 +82,7 @@ function Feature() {
 						<div className="card w-full h-full overflow-hidden rounded-xl">
 							<img
 								className="w-full h-full bg-cover"
-								src="https://ochi.design/wp-content/uploads/2022/12/PB-Front-4-663x551.png"
+								src="https://Ballers.design/wp-content/uploads/2022/12/PB-Front-4-663x551.png"
 							/>
 						</div>
 						<div className="py-[1vw] flex gap-2 capitalize">

@@ -17,7 +17,7 @@ function Marquee() {
 					transition={{ ease: "linear", repeat: Infinity, duration: 10 }}
 					className="-mb-[7vw] pb-20 pr-20"
 				>
-					we are ochi
+					we are Ballers
 				</motion.h1>
 				<motion.h1
 					initial={{ x: "0" }}
@@ -25,7 +25,7 @@ function Marquee() {
 					transition={{ ease: "linear", repeat: Infinity, duration: 10 }}
 					className="-mb-[7vw] pb-20 pr-20"
 				>
-					we are ochi
+					we are Ballers
 				</motion.h1>
 				<motion.h1
 					initial={{ x: "0" }}
@@ -33,7 +33,7 @@ function Marquee() {
 					transition={{ ease: "linear", repeat: Infinity, duration: 10 }}
 					className="-mb-[7vw] pb-20 pr-20"
 				>
-					we are ochi
+					we are Ballers
 				</motion.h1>
 			</div>
 		</div>
